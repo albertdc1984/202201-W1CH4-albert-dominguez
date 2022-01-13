@@ -38,6 +38,47 @@ li {
 }
 .items-count {
   background-color: #f87500;
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-between;
 }
-.main-products {
+.items-count--numbers {
+  justify-content: space-around;
+  margin: 20px;
+}
+#plus {
+  margin: 20px;
+}
+.main--products--price {
+  justify-self: flex-end;
+}
+.main--products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: large;
+  margin: 20px;
+}
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+.main--products--price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main--products__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.total {
+  background-color: #f87500;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 20px;
+}
+.total-price {
+  font-size: xx-large;
 }
