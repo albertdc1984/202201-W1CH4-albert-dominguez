@@ -38,6 +38,18 @@ li {
 }
 .items-count {
   background-color: #f87500;
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-between;
 }
-.main-products {
+.items-count--numbers {
+  justify-content: space-around;
+  margin: 20px;
+}
+#plus {
+  margin: 20px;
+}
+.main--products {
+  display: grid;
+  font-size: large;
 }
