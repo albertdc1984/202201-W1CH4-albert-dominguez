@@ -49,7 +49,24 @@ li {
 #plus {
   margin: 20px;
 }
+.main--products--price {
+  justify-self: flex-end;
+}
 .main--products {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-size: large;
+}
+
+.main--products--price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main--products__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
