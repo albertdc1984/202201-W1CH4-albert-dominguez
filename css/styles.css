@@ -52,6 +52,12 @@ li {
 .main--products--price {
   justify-self: flex-end;
 }
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
 .main--products {
   display: flex;
   flex-direction: column;
@@ -81,4 +87,17 @@ input[type="checkbox"]:checked + label {
 }
 .total-price {
   font-size: xx-large;
+}
+.form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100px;
+  margin: 20px;
+}
+.form-button {
+  background-color: #5e81d1;
+  color: white;
+  width: 70px;
+  margin: 20px;
 }
