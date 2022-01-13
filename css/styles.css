@@ -57,6 +57,7 @@ li {
   flex-direction: column;
   justify-content: space-between;
   font-size: large;
+  margin: 20px;
 }
 
 .main--products--price {
@@ -69,4 +70,12 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.total {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 20px;
+}
+.total-price {
+  font-size: xx-large;
 }
